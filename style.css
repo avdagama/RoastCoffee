@@ -1,4 +1,29 @@
 #overrideBootstrap {
   font-family: 'Raleway', sans-serif;
 }
+
+#overrideBootstrap nav {
+  color: black;
+}
+
+#overrideBootstrap nav li {
+  margin-right: 30px;
+}
+
+#overrideBootstrap nav h1 {
+  color: #392828;
+}
+
+#overrideBootstrap .carousel-inner img {
+  height: 700px;
+  width: 100%;
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#overrideBootstrap .carousel-inner .carousel-caption {
+  top: 30%;
+  left: -40%;
+}
 /*# sourceMappingURL=style.css.map */

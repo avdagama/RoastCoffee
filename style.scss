@@ -3,6 +3,29 @@ $pink: rgb(182, 85, 153);
 
 #overrideBootstrap {
     font-family: 'Raleway', sans-serif;
-    
+
+    nav {
+        li {
+            margin-right: 30px;
+        }
+        color: black;
+        h1 {
+            color: #392828;
+        }
+    }
+
+    .carousel-inner {
+        
+        img {
+            height: 700px;
+            width: 100%;
+            margin: 0 auto;
+            object-fit: cover;
+        }
+        .carousel-caption {
+            top: 30%;
+            left: -40%;
+        }
+    }
     
 }
