@@ -1,4 +1,4 @@
-$pink: rgb(182, 85, 153);
+$brown1: #38220f;
 
 
 #overrideBootstrap {
@@ -10,22 +10,57 @@ $pink: rgb(182, 85, 153);
         }
         color: black;
         h1 {
-            color: #392828;
+            color: $brown1;
         }
     }
 
     .carousel-inner {
         
         img {
-            height: 700px;
+            height: 600px;
             width: 100%;
             margin: 0 auto;
             object-fit: cover;
         }
-        .carousel-caption {
-            top: 30%;
+        h1 {
+            text-shadow: 1px 1px 15px #000;
+        }
+        h3 {
+            margin-top: -10px;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 15px #000;
+        }
+        button {
+            margin-right: 10px;
+        }
+        .btn-primary {
+            background-color: $brown1;
+            border-color: $brown1;
+        }
+        #caption1 {
+            top: 25%;
             left: -40%;
         }
+        #caption2 {
+            top: 25%;
+        }
+        #caption3 {
+            top: 25%;
+            left: -45%;
+        }
+    }
+
+    #faStyle {
+        font-size: 150px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        color: $brown1;
+    }
+
+    #threeIcons h3, p {
+        color: $brown1;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     
 }

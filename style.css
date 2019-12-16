@@ -11,19 +11,60 @@
 }
 
 #overrideBootstrap nav h1 {
-  color: #392828;
+  color: #38220f;
 }
 
 #overrideBootstrap .carousel-inner img {
-  height: 700px;
+  height: 600px;
   width: 100%;
   margin: 0 auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#overrideBootstrap .carousel-inner .carousel-caption {
-  top: 30%;
+#overrideBootstrap .carousel-inner h1 {
+  text-shadow: 1px 1px 15px #000;
+}
+
+#overrideBootstrap .carousel-inner h3 {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 15px #000;
+}
+
+#overrideBootstrap .carousel-inner button {
+  margin-right: 10px;
+}
+
+#overrideBootstrap .carousel-inner .btn-primary {
+  background-color: #38220f;
+  border-color: #38220f;
+}
+
+#overrideBootstrap .carousel-inner #caption1 {
+  top: 25%;
   left: -40%;
+}
+
+#overrideBootstrap .carousel-inner #caption2 {
+  top: 25%;
+}
+
+#overrideBootstrap .carousel-inner #caption3 {
+  top: 25%;
+  left: -45%;
+}
+
+#overrideBootstrap #faStyle {
+  font-size: 150px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #38220f;
+}
+
+#overrideBootstrap #threeIcons h3, #overrideBootstrap p {
+  color: #38220f;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 /*# sourceMappingURL=style.css.map */
