@@ -1,5 +1,6 @@
 #overrideBootstrap {
   font-family: 'Raleway', sans-serif;
+  background-color: #DFCCAF;
 }
 
 #overrideBootstrap nav {
@@ -39,6 +40,7 @@
 #overrideBootstrap .carousel-inner .btn-primary {
   background-color: #38220f;
   border-color: #38220f;
+  color: white;
 }
 
 #overrideBootstrap .carousel-inner #caption1 {
@@ -59,12 +61,38 @@
   font-size: 150px;
   margin-top: 60px;
   margin-bottom: 20px;
-  color: #38220f;
+  color: #DFCCAF;
 }
 
-#overrideBootstrap #threeIcons h3, #overrideBootstrap p {
-  color: #38220f;
+#overrideBootstrap #threeIcons {
+  background-color: #38220f;
+  padding-bottom: 30px;
+}
+
+#overrideBootstrap #threeIcons h3, #overrideBootstrap #threeIcons p {
+  color: #DFCCAF;
   margin-right: 20px;
   margin-left: 20px;
+}
+
+#overrideBootstrap #menu .card-text {
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #DFCCAF;
+}
+
+#overrideBootstrap #menu .card {
+  margin-top: 30px;
+  background-color: #38220f;
+  color: #DFCCAF;
+  border-width: 0px;
+}
+
+#overrideBootstrap #menuTitle {
+  margin-top: 50px;
+}
+
+#overrideBootstrap #menuTitle h1 {
+  color: #38220f;
 }
 /*# sourceMappingURL=style.css.map */

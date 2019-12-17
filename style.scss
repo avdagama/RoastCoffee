@@ -1,8 +1,10 @@
 $brown1: #38220f;
+$tan: #DFCCAF;
 
 
 #overrideBootstrap {
     font-family: 'Raleway', sans-serif;
+    background-color: $tan;
 
     nav {
         li {
@@ -36,6 +38,7 @@ $brown1: #38220f;
         .btn-primary {
             background-color: $brown1;
             border-color: $brown1;
+            color: white;;
         }
         #caption1 {
             top: 25%;
@@ -54,13 +57,37 @@ $brown1: #38220f;
         font-size: 150px;
         margin-top: 60px;
         margin-bottom: 20px;
-        color: $brown1;
+        color: $tan;
     }
 
-    #threeIcons h3, p {
-        color: $brown1;
-        margin-right: 20px;
-        margin-left: 20px;
+    #threeIcons {
+        background-color: $brown1;
+        padding-bottom: 30px;
+
+        h3, p {
+            color: $tan;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
     }
-    
+    #menu {
+        .card-text {
+            margin-left: 0px;
+            margin-right: 0px;
+            color: $tan;
+        }
+        .card {
+            margin-top: 30px;
+            background-color: $brown1;
+            color: $tan;
+            border-width: 0px;
+        }
+    }
+
+    #menuTitle {
+        margin-top: 50px;
+        h1 {
+            color: $brown1;
+        }
+    }  
 }
