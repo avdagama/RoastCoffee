@@ -11,13 +11,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="scripts.js"></script>
 </head>
 
 <body id="overrideBootstrap" data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#overrideBootstrap">
                 <h1>ROAST</h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -27,10 +28,10 @@
             <div class="collapse navbar-collapse" id="navResponsive">
                 <ul class="navbar-nav ml-auto text-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#overrideBootstrap">Home</a>
+                        <a class="nav-link active" data-id="overrideBootstrap" href="#overrideBootstrap">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#menuLink">Menu</a>
+                        <a class="nav-link active" data-id="menuLink" href="#menuLink">Menu</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">About</a>
@@ -114,54 +115,54 @@
 
             <div class="container-fluid padding" id="menu">
                 <div class="row padding justify-content-center">
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/coffee1.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">John Doe</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/coffee2.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">Mary Joe</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/coffee3.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">Phil Ho</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/coffee4.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">John Doe</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/coffee5.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">Mary Joe</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/coffee6.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">Phil Ho</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
@@ -171,7 +172,7 @@
                 </div>
             </div>
             
-            <div class="container-fluid padding" id="menuTitle">
+            <div class="container-fluid padding" id="dessertTitle">
                 <div class="row welcome text-center">
                     <div class="col-12">
                         <h1 class="display-4">Dessert Menu</h1>
@@ -182,54 +183,54 @@
             
             <div class="container-fluid padding" id="menu">
                 <div class="row padding justify-content-center">
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/dessert1.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">John Doe</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/dessert2.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">Mary Joe</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/dessert3.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">Phil Ho</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/dessert4.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">John Doe</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/dessert5.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">Mary Joe</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                         <div class="card">
-                            <img class="card-img-top" src="media/slide1.jpg">
+                            <img class="card-img-top" src="media/dessert6.jpg">
                             <div class="card-body">
                                 <h4 class="card-title">Phil Ho</h4>
                                 <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
