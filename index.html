@@ -31,10 +31,10 @@
                         <a class="nav-link active" data-id="overrideBootstrap" href="#overrideBootstrap">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" data-id="menuLink" href="#menuLink">Menu</a>
+                        <a class="nav-link active" data-id="menuLink" href="#menuTitle">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link active" href="#aboutTitle">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Contact</a>
@@ -46,201 +46,235 @@
 
     <content>
 
-            <div id="slides" class="carousel slide" data-ride="carousel">
-                <ul class="carousel-indicators">
-                    <li data-target="#slides" data-slide-to="0" class="active"></li>
-                    <li data-target="#slides" data-slide-to="1"></li>
-                    <li data-target="#slides" data-slide-to="2"></li>
-                </ul>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="media/slide1.jpg">
-                        <div class="carousel-caption" id="caption1">
-                            <h1 class="display-2">Fresh</h1>
-                            <h3>Premium hand-brewed coffee</h3>
-                            <button type="button" class="btn btn-outline-light btn-lg">VIEW MENU</button>
-                            <button type="button" class="btn btn-primary btn-lg">Find A Location</button>
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="media/slide1.jpg">
+                    <div class="carousel-caption" id="caption1">
+                        <h1 class="display-2">Fresh</h1>
+                        <h3>Premium hand-brewed coffee</h3>
+                        <button type="button" class="btn btn-outline-light btn-lg">VIEW MENU</button>
+                        <button type="button" class="btn btn-primary btn-lg">Find A Location</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="media/slide2.jpg">
+                    <div class="carousel-caption" id="caption2">
+                        <h1 class="display-2">Blends</h1>
+                        <h3>Stop by and try our variety<br>of premium coffee blends</h3>
+                        <button type="button" class="btn btn-outline-light btn-lg">VIEW MENU</button>
+                        <button type="button" class="btn btn-primary btn-lg">Find A Location</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="media/slide3.jpg">
+                    <div class="carousel-caption" id="caption3">
+                        <h1 class="display-2">It's An Art</h1>
+                        <h3>We've perfected our premium<br>coffee blends over decades</h3>
+                        <button type="button" class="btn btn-outline-light btn-lg">LEARN MORE</button>
+                        <button type="button" class="btn btn-primary btn-lg">Find A Location</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid padding" id="threeIcons">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-coffee" id="faStyle"></i>
+                    <h3>Fresh Coffee</h3>
+                    <p>Freshly brewed using premium ROAST coffee beans.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-birthday-cake" id="faStyle"></i>
+                    <h3>Delicious Desserts</h3>
+                    <p>Our bakery provides a wonderful assortment of pastires, cakes, and crossaints.</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <i class="fas fa-wifi" id="faStyle"></i>
+                    <h3>Free WiFi</h3>
+                    <p>Enjoy high-speed internet while drinking the best coffee in town.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid padding" id="menuTitle">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Coffee Menu</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid padding" id="menu">
+            <div class="row padding justify-content-center">
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/coffee1.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="media/slide2.jpg">
-                        <div class="carousel-caption" id="caption2">
-                            <h1 class="display-2">Blends</h1>
-                            <h3>Stop by and try our variety<br>of premium coffee blends</h3>
-                            <button type="button" class="btn btn-outline-light btn-lg">VIEW MENU</button>
-                            <button type="button" class="btn btn-primary btn-lg">Find A Location</button>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/coffee2.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Mary Joe</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="media/slide3.jpg">
-                        <div class="carousel-caption" id="caption3">
-                            <h1 class="display-2">It's An Art</h1>
-                            <h3>We've perfected our premium<br>coffee blends over decades</h3>
-                            <button type="button" class="btn btn-outline-light btn-lg">LEARN MORE</button>
-                            <button type="button" class="btn btn-primary btn-lg">Find A Location</button>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/coffee3.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Phil Ho</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/coffee4.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/coffee5.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Mary Joe</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/coffee6.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Phil Ho</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        
+        <div class="container-fluid padding" id="dessertTitle">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Dessert Menu</h1>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid padding" id="menu">
+            <div class="row padding justify-content-center">
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/dessert1.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/dessert2.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Mary Joe</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/dessert3.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Phil Ho</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/dessert4.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/dessert5.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Mary Joe</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img class="card-img-top" src="media/dessert6.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Phil Ho</h4>
+                            <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="about">
 
-
-            <div class="container-fluid padding" id="threeIcons">
+            <div class="container-fluid padding" id="aboutTitle">
+                <div class="row welcome text-center">
+                    <div class="col-12">
+                        <h1 class="display-4">About ROAST</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid padding" id="aboutGrid">
                 <div class="row text-center padding">
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <i class="fas fa-coffee" id="faStyle"></i>
-                        <h3>Fresh Coffee</h3>
-                        <p>Freshly brewed using premium ROAST coffee beans.</p>
+                    <div class="col-xs-12 col-md-6 order-md-1 col-md-offset-4">
+                        <img src="media/about1.jpg">
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <i class="fas fa-birthday-cake" id="faStyle"></i>
-                        <h3>Delicious Desserts</h3>
-                        <p>Our bakery provides a wonderful assortment of pastires, cakes, and crossaints.</p>
+                    <div class="col-xs-12 col-md-6 order-md-2 col-md-offset-4">
+                        <h3 id="ra-md">Delicious Desserts</h3>
+                        <p>Our bakery provides a wonderful assortment of pastires, cakes, and crossaints. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints.</p>
                     </div>
-                    <div class="col-sm-12 col-md-4">
-                        <i class="fas fa-wifi" id="faStyle"></i>
-                        <h3>Free WiFi</h3>
-                        <p id="menuLink">Enjoy high-speed internet while drinking the best coffee in town.</p>
+                    <div class="col-sm-12 col-md-6 order-md-4 col-md-offset-4">
+                        <img src="media/about2.jpg">
+                    </div>
+                    <div class="col-sm-12 col-md-6 order-md-3 col-md-offset-4">
+                        <h3 id="la-md">Free WiFi</h3>
+                        <p>Enjoy high-speed internet while drinking the best coffee in town. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 order-md-5 col-md-offset-4">
+                        <img src="media/about3.jpg">
+                    </div>
+                    <div class="col-sm-12 col-md-6 order-md-6 col-md-offset-4">
+                        <h3 id="ra-md">Free WiFi</h3>
+                        <p>Enjoy high-speed internet while drinking the best coffee in town. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="container-fluid padding" id="menuTitle">
-                <div class="row welcome text-center">
-                    <div class="col-12">
-                        <h1 class="display-4">Coffee Menu</h1>
-                    </div>
-                    <hr>
-                </div>
-            </div>
-
-            <div class="container-fluid padding" id="menu">
-                <div class="row padding justify-content-center">
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/coffee1.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">John Doe</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/coffee2.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">Mary Joe</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/coffee3.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">Phil Ho</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/coffee4.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">John Doe</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/coffee5.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">Mary Joe</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/coffee6.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">Phil Ho</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="container-fluid padding" id="dessertTitle">
-                <div class="row welcome text-center">
-                    <div class="col-12">
-                        <h1 class="display-4">Dessert Menu</h1>
-                    </div>
-                    <hr>
-                </div>
-            </div>
-            
-            <div class="container-fluid padding" id="menu">
-                <div class="row padding justify-content-center">
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/dessert1.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">John Doe</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/dessert2.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">Mary Joe</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/dessert3.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">Phil Ho</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/dessert4.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">John Doe</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/dessert5.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">Mary Joe</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="card">
-                            <img class="card-img-top" src="media/dessert6.jpg">
-                            <div class="card-body">
-                                <h4 class="card-title">Phil Ho</h4>
-                                <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-
+        </div>
 
             
     </content>

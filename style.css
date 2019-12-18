@@ -1,6 +1,11 @@
 #overrideBootstrap {
   font-family: 'Raleway', sans-serif;
   background-color: #ece0d1;
+  /* Extra small devices (phones, 600px and down) */
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+  /* Large devices (laptops/desktops, 992px and up) */
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
 }
 
 #overrideBootstrap nav {
@@ -116,5 +121,65 @@
 
 #overrideBootstrap #dessertTitle h1 {
   color: #38220f;
+}
+
+#overrideBootstrap #about {
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  background-color: #38220f;
+  color: #DFCCAF;
+}
+
+#overrideBootstrap #about #aboutGrid {
+  max-width: 1500px;
+}
+
+#overrideBootstrap #about #aboutTitle {
+  margin-top: 30px;
+}
+
+#overrideBootstrap #about img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+#overrideBootstrap #about h3 {
+  margin-top: 50px;
+}
+
+#overrideBootstrap #about p {
+  text-align: justify;
+}
+
+@media only screen and (min-width: 768px) {
+  #overrideBootstrap #about {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  #overrideBootstrap #about h3 {
+    margin-top: 120px;
+    margin-bottom: 15px;
+  }
+  #overrideBootstrap #about h3, #overrideBootstrap #about p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #overrideBootstrap #about img {
+    margin-top: 80px;
+  }
+  #overrideBootstrap #about #aboutTitle {
+    margin-bottom: -30px;
+  }
+  #overrideBootstrap #ra-md {
+    text-align: right;
+  }
+  #overrideBootstrap #la-md {
+    text-align: left;
+  }
 }
 /*# sourceMappingURL=style.css.map */
