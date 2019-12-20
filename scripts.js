@@ -3,7 +3,7 @@ $(document).ready(function(){
 
         e.preventDefault();
 
-        var navOffset = $('.navbar').height();
+        var navOffset = $('.navbar').height()+50;
 
         var hash = this.hash;
 
@@ -14,4 +14,5 @@ $(document).ready(function(){
             window.location.hash = hash - navOffset;
             });
     });
+    $('body').scrollspy({offset: 300});
 });
