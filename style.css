@@ -31,31 +31,43 @@
   margin: 0 auto;
   -o-object-fit: cover;
      object-fit: cover;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #overrideBootstrap .carousel-inner h1 {
-  text-shadow: 1px 1px 15px #000;
+  text-shadow: 1px 1px 10px #000;
+  font-size: 50px;
 }
 
 #overrideBootstrap .carousel-inner h3 {
-  margin-top: -10px;
-  margin-bottom: 20px;
-  text-shadow: 1px 1px 15px #000;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 7px #000;
+  font-size: 20px;
 }
 
 #overrideBootstrap .carousel-inner button {
   margin-right: 10px;
+  margin-top: 10px;
+}
+
+#overrideBootstrap .carousel-inner .btn-outline-light {
+  border-color: #ece0d1;
+  background-color: #ece0d1;
+  color: #38220f;
 }
 
 #overrideBootstrap .carousel-inner .btn-primary {
   background-color: #38220f;
   border-color: #38220f;
-  color: white;
+  color: #ece0d1;
 }
 
 #overrideBootstrap .carousel-inner #caption1 {
   top: 25%;
-  left: -40%;
 }
 
 #overrideBootstrap .carousel-inner #caption2 {
@@ -64,7 +76,6 @@
 
 #overrideBootstrap .carousel-inner #caption3 {
   top: 25%;
-  left: -45%;
 }
 
 #overrideBootstrap #faStyle {
@@ -157,6 +168,29 @@
 }
 
 @media only screen and (min-width: 768px) {
+  #overrideBootstrap .carousel-inner #caption1 {
+    top: 25%;
+    left: -35%;
+  }
+  #overrideBootstrap .carousel-inner #caption2 {
+    top: 25%;
+  }
+  #overrideBootstrap .carousel-inner #caption3 {
+    top: 25%;
+    left: -35%;
+  }
+  #overrideBootstrap .carousel-inner img {
+    filter: none;
+    -webkit-filter: none;
+    -webkit-transform: none;
+            transform: none;
+  }
+  #overrideBootstrap .carousel-inner h1 {
+    font-size: 80px;
+  }
+  #overrideBootstrap .carousel-inner h3 {
+    font-size: 25px;
+  }
   #overrideBootstrap #about {
     padding-left: 8%;
     padding-right: 8%;

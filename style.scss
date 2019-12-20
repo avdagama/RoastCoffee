@@ -29,34 +29,44 @@ $lightTan: #ece0d1;
             width: 100%;
             margin: 0 auto;
             object-fit: cover;
+            filter: blur(4px);
+            -webkit-filter: blur(4px);
+            transform: scale(1.1);
         }
         h1 {
-            text-shadow: 1px 1px 15px #000;
+            text-shadow: 1px 1px 10px #000;
+            font-size: 50px;
         }
         h3 {
-            margin-top: -10px;
-            margin-bottom: 20px;
-            text-shadow: 1px 1px 15px #000;
+            margin-top: -5px;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 7px #000;
+            font-size: 20px;
         }
         button {
             margin-right: 10px;
+            margin-top: 10px;
+        }
+        .btn-outline-light {
+            border-color: $lightTan;
+            background-color: $lightTan;
+            color: $brown1;
         }
         .btn-primary {
             background-color: $brown1;
             border-color: $brown1;
-            color: white;;
+            color: $lightTan;;
         }
         #caption1 {
             top: 25%;
-            left: -40%;
         }
         #caption2 {
             top: 25%;
         }
         #caption3 {
             top: 25%;
-            left: -45%;
         }
+        
     }
 
     #faStyle {
@@ -145,6 +155,30 @@ $lightTan: #ece0d1;
 
     /* Medium devices (landscape tablets, 768px and up) */
     @media only screen and (min-width: 768px) {
+        .carousel-inner {
+            #caption1 {
+                top: 25%;
+                left: -35%;
+            }
+            #caption2 {
+                top: 25%;
+            }
+            #caption3 {
+                top: 25%;
+                left: -35%;
+            }
+            img {
+                filter: none;
+                -webkit-filter: none;
+                transform: none;
+            }
+            h1 {
+                font-size: 80px;
+            }
+            h3 {
+                font-size: 25px;
+            }
+        }
         #about {
             padding-left: 8%;
             padding-right: 8%;

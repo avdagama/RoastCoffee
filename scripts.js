@@ -11,8 +11,8 @@ $(document).ready(function(){
             scrollTop: $(hash).offset().top - navOffset
             }, 1000, function(){
 
-            window.location.hash = hash - navOffset;
+            
             });
     });
-    $('body').scrollspy({offset: 300});
+    $('body').scrollspy({offset: 400});
 });
