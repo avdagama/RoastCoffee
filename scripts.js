@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $(".navbar ul li a").click(function(e){
 
         e.preventDefault();
@@ -14,5 +15,11 @@ $(document).ready(function(){
             
             });
     });
+
     $('body').scrollspy({offset: 400});
+    AOS.init({
+        offset: 120,
+        duration: 600,
+        disable: 'mobile'
+    });
 });
