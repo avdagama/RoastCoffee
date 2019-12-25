@@ -145,6 +145,25 @@ $lightTan: #ece0d1;
             text-align: justify;
         }
     }
+    #locations {
+        .card-text {
+            margin-left: 0px;
+            margin-right: 0px;
+            color: $brown1;
+        }
+        .card {
+            margin-top: 30px;
+            background-color: $tan;
+            color: $brown1;
+            border-width: 0px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+            img {
+            height: 270px;
+            object-fit: cover;
+            }
+        }
+    }
 
 
     /* Extra small devices (phones, 600px and down) */

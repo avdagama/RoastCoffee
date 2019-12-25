@@ -17,11 +17,10 @@ $(document).ready(function(){
     });
 
     $('body').scrollspy({offset: 500});
-    
+
     AOS.init({
         offset: 120,
         duration: 600,
-        disable: 'mobile',
         repeat: false,
         once: true
     });

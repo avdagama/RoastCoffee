@@ -167,6 +167,28 @@
   text-align: justify;
 }
 
+#overrideBootstrap #locations .card-text {
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #38220f;
+}
+
+#overrideBootstrap #locations .card {
+  margin-top: 30px;
+  background-color: #DFCCAF;
+  color: #38220f;
+  border-width: 0px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+#overrideBootstrap #locations .card img {
+  height: 270px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media only screen and (min-width: 768px) {
   #overrideBootstrap .carousel-inner #caption1 {
     top: 25%;
