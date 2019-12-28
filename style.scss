@@ -3,231 +3,230 @@ $tan: #DFCCAF;
 $lightTan: #ece0d1;
 
 
-#overrideBootstrap {
+body {
     font-family: 'Raleway', sans-serif;
     background-color: $lightTan;
+}
 
-    nav {
-        li {
-            margin-right: 30px;
-        }
-        color: black;
-        h1 {
-            color: $brown1;
-        }
+nav {
+    li {
+        margin-right: 30px;
     }
-
-    .padding {
-        padding-left: 20px;
-        padding-right: 20px;
+    color: black;
+    h1 {
+        color: $brown1;
     }
+}
 
-    .carousel-inner {
-        
+.padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.carousel-inner {
+    
+    img {
+        height: 600px;
+        width: 100%;
+        margin: 0 auto;
+        object-fit: cover;
+        filter: blur(4px);
+        -webkit-filter: blur(4px);
+        transform: scale(1.1);
+    }
+    h1 {
+        text-shadow: 1px 1px 10px #000;
+        font-size: 50px;
+    }
+    h3 {
+        margin-top: -5px;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 7px #000;
+        font-size: 20px;
+    }
+    button {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .btn-outline-light {
+        border-color: $lightTan;
+        background-color: $lightTan;
+        color: $brown1;
+    }
+    .btn-primary {
+        background-color: $brown1;
+        border-color: $brown1;
+        color: $lightTan;;
+    }
+    #caption1 {
+        top: 25%;
+    }
+    #caption2 {
+        top: 25%;
+    }
+    #caption3 {
+        top: 25%;
+    }
+    
+}
+
+#faStyle {
+    font-size: 150px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: $tan;
+}
+
+#threeIcons {
+    background-color: $brown1;
+    padding-bottom: 30px;
+
+    h3, p {
+        color: $tan;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+#menu {
+    .card-text {
+        margin-left: 0px;
+        margin-right: 0px;
+        color: $brown1;
+    }
+    .card {
+        margin-top: 30px;
+        background-color: $tan;
+        color: $brown1;
+        border-width: 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
         img {
-            height: 600px;
-            width: 100%;
-            margin: 0 auto;
-            object-fit: cover;
-            filter: blur(4px);
-            -webkit-filter: blur(4px);
-            transform: scale(1.1);
+        height: 200px;
+        object-fit: cover;
         }
-        h1 {
-            text-shadow: 1px 1px 10px #000;
-            font-size: 50px;
+    }
+}
+
+#menuTitle {
+    margin-top: 50px;
+    h1 {
+        color: $brown1;
+    }
+}
+
+#dessertTitle {
+    margin-top: 80px;
+    h1 {
+        color: $brown1;
+    }
+}
+#about{
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: $brown1;
+    color: $lightTan;
+    #aboutGrid {
+        max-width: 1500px;
+    }
+    #aboutTitle {
+        margin-top: 30px;
+    }
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-top: 50px;
+    }
+    h3 {
+        margin-top: 50px;
+    }
+    p {
+        text-align: justify;
+    }
+}
+#locations {
+    .card-text {
+        margin-left: 0px;
+        margin-right: 0px;
+        color: $brown1;
+    }
+    .card {
+        margin-top: 30px;
+        background-color: $tan;
+        color: $brown1;
+        border-width: 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        img {
+        height: 270px;
+        object-fit: cover;
         }
-        h3 {
-            margin-top: -5px;
-            margin-bottom: 10px;
-            text-shadow: 1px 1px 7px #000;
-            font-size: 20px;
-        }
-        button {
-            margin-right: 10px;
-            margin-top: 10px;
-        }
-        .btn-outline-light {
-            border-color: $lightTan;
-            background-color: $lightTan;
-            color: $brown1;
-        }
-        .btn-primary {
-            background-color: $brown1;
-            border-color: $brown1;
-            color: $lightTan;;
-        }
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .carousel-inner {
         #caption1 {
             top: 25%;
+            left: -35%;
         }
         #caption2 {
             top: 25%;
         }
         #caption3 {
             top: 25%;
-        }
-        
-    }
-
-    #faStyle {
-        font-size: 150px;
-        margin-top: 60px;
-        margin-bottom: 20px;
-        color: $tan;
-    }
-
-    #threeIcons {
-        background-color: $brown1;
-        padding-bottom: 30px;
-
-        h3, p {
-            color: $tan;
-            margin-right: 20px;
-            margin-left: 20px;
-        }
-    }
-    #menu {
-        .card-text {
-            margin-left: 0px;
-            margin-right: 0px;
-            color: $brown1;
-        }
-        .card {
-            margin-top: 30px;
-            background-color: $tan;
-            color: $brown1;
-            border-width: 0px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            text-align: center;
-            img {
-            height: 200px;
-            object-fit: cover;
-            }
-        }
-    }
-
-    #menuTitle {
-        margin-top: 50px;
-        h1 {
-            color: $brown1;
-        }
-    }
-
-    #dessertTitle {
-        margin-top: 80px;
-        h1 {
-            color: $brown1;
-        }
-    }
-    #about{
-        margin-top: 80px;
-        padding-top: 20px;
-        padding-bottom: 60px;
-        background-color: $brown1;
-        color: $lightTan;
-        #aboutGrid {
-            max-width: 1500px;
-        }
-        #aboutTitle {
-            margin-top: 30px;
+            left: -35%;
         }
         img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 5px;
-            margin-top: 50px;
+            filter: none;
+            -webkit-filter: none;
+            transform: none;
+        }
+        h1 {
+            font-size: 80px;
         }
         h3 {
-            margin-top: 50px;
-        }
-        p {
-            text-align: justify;
+            font-size: 25px;
         }
     }
-    #locations {
-        .card-text {
-            margin-left: 0px;
-            margin-right: 0px;
-            color: $brown1;
+    #about {
+        padding-left: 8%;
+        padding-right: 8%;
+        h3 {
+            margin-top: 120px;
+            margin-bottom: 15px;
         }
-        .card {
-            margin-top: 30px;
-            background-color: $tan;
-            color: $brown1;
-            border-width: 0px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            text-align: center;
-            img {
-            height: 270px;
-            object-fit: cover;
-            }
+        h3, p {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        img {
+                margin-top: 80px;
+        }
+        #aboutTitle {
+            margin-bottom: -30px;
         }
     }
+    #ra-md {
+        text-align: right;
+    }
+    #la-md {
+        text-align: left;
+    }
+} 
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
 
-    /* Extra small devices (phones, 600px and down) */
-    @media only screen and (max-width: 600px) {} 
-
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    @media only screen and (min-width: 600px) {} 
-
-    /* Medium devices (landscape tablets, 768px and up) */
-    @media only screen and (min-width: 768px) {
-        .carousel-inner {
-            #caption1 {
-                top: 25%;
-                left: -35%;
-            }
-            #caption2 {
-                top: 25%;
-            }
-            #caption3 {
-                top: 25%;
-                left: -35%;
-            }
-            img {
-                filter: none;
-                -webkit-filter: none;
-                transform: none;
-            }
-            h1 {
-                font-size: 80px;
-            }
-            h3 {
-                font-size: 25px;
-            }
-        }
-        #about {
-            padding-left: 8%;
-            padding-right: 8%;
-            h3 {
-                margin-top: 120px;
-                margin-bottom: 15px;
-            }
-            h3, p {
-                padding-left: 10px;
-                padding-right: 10px;
-            }
-            img {
-                 margin-top: 80px;
-            }
-            #aboutTitle {
-                margin-bottom: -30px;
-            }
-        }
-        #ra-md {
-            text-align: right;
-        }
-        #la-md {
-            text-align: left;
-        }
-    } 
-
-    /* Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 992px) {} 
-
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {}
-
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,31 +1,26 @@
-#overrideBootstrap {
+body {
   font-family: 'Raleway', sans-serif;
   background-color: #ece0d1;
-  /* Extra small devices (phones, 600px and down) */
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  /* Medium devices (landscape tablets, 768px and up) */
-  /* Large devices (laptops/desktops, 992px and up) */
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
 }
 
-#overrideBootstrap nav {
+nav {
   color: black;
 }
 
-#overrideBootstrap nav li {
+nav li {
   margin-right: 30px;
 }
 
-#overrideBootstrap nav h1 {
+nav h1 {
   color: #38220f;
 }
 
-#overrideBootstrap .padding {
+.padding {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-#overrideBootstrap .carousel-inner img {
+.carousel-inner img {
   height: 600px;
   width: 100%;
   margin: 0 auto;
@@ -37,72 +32,72 @@
           transform: scale(1.1);
 }
 
-#overrideBootstrap .carousel-inner h1 {
+.carousel-inner h1 {
   text-shadow: 1px 1px 10px #000;
   font-size: 50px;
 }
 
-#overrideBootstrap .carousel-inner h3 {
+.carousel-inner h3 {
   margin-top: -5px;
   margin-bottom: 10px;
   text-shadow: 1px 1px 7px #000;
   font-size: 20px;
 }
 
-#overrideBootstrap .carousel-inner button {
+.carousel-inner button {
   margin-right: 10px;
   margin-top: 10px;
 }
 
-#overrideBootstrap .carousel-inner .btn-outline-light {
+.carousel-inner .btn-outline-light {
   border-color: #ece0d1;
   background-color: #ece0d1;
   color: #38220f;
 }
 
-#overrideBootstrap .carousel-inner .btn-primary {
+.carousel-inner .btn-primary {
   background-color: #38220f;
   border-color: #38220f;
   color: #ece0d1;
 }
 
-#overrideBootstrap .carousel-inner #caption1 {
+.carousel-inner #caption1 {
   top: 25%;
 }
 
-#overrideBootstrap .carousel-inner #caption2 {
+.carousel-inner #caption2 {
   top: 25%;
 }
 
-#overrideBootstrap .carousel-inner #caption3 {
+.carousel-inner #caption3 {
   top: 25%;
 }
 
-#overrideBootstrap #faStyle {
+#faStyle {
   font-size: 150px;
   margin-top: 60px;
   margin-bottom: 20px;
   color: #DFCCAF;
 }
 
-#overrideBootstrap #threeIcons {
+#threeIcons {
   background-color: #38220f;
   padding-bottom: 30px;
 }
 
-#overrideBootstrap #threeIcons h3, #overrideBootstrap #threeIcons p {
+#threeIcons h3, #threeIcons p {
   color: #DFCCAF;
   margin-right: 20px;
   margin-left: 20px;
 }
 
-#overrideBootstrap #menu .card-text {
+#menu .card-text {
   margin-left: 0px;
   margin-right: 0px;
   color: #38220f;
 }
 
-#overrideBootstrap #menu .card {
+#menu .card {
   margin-top: 30px;
   background-color: #DFCCAF;
   color: #38220f;
@@ -112,29 +107,29 @@
   text-align: center;
 }
 
-#overrideBootstrap #menu .card img {
+#menu .card img {
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#overrideBootstrap #menuTitle {
+#menuTitle {
   margin-top: 50px;
 }
 
-#overrideBootstrap #menuTitle h1 {
+#menuTitle h1 {
   color: #38220f;
 }
 
-#overrideBootstrap #dessertTitle {
+#dessertTitle {
   margin-top: 80px;
 }
 
-#overrideBootstrap #dessertTitle h1 {
+#dessertTitle h1 {
   color: #38220f;
 }
 
-#overrideBootstrap #about {
+#about {
   margin-top: 80px;
   padding-top: 20px;
   padding-bottom: 60px;
@@ -142,15 +137,15 @@
   color: #ece0d1;
 }
 
-#overrideBootstrap #about #aboutGrid {
+#about #aboutGrid {
   max-width: 1500px;
 }
 
-#overrideBootstrap #about #aboutTitle {
+#about #aboutTitle {
   margin-top: 30px;
 }
 
-#overrideBootstrap #about img {
+#about img {
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
@@ -159,21 +154,21 @@
   margin-top: 50px;
 }
 
-#overrideBootstrap #about h3 {
+#about h3 {
   margin-top: 50px;
 }
 
-#overrideBootstrap #about p {
+#about p {
   text-align: justify;
 }
 
-#overrideBootstrap #locations .card-text {
+#locations .card-text {
   margin-left: 0px;
   margin-right: 0px;
   color: #38220f;
 }
 
-#overrideBootstrap #locations .card {
+#locations .card {
   margin-top: 30px;
   background-color: #DFCCAF;
   color: #38220f;
@@ -183,59 +178,65 @@
   text-align: center;
 }
 
-#overrideBootstrap #locations .card img {
+#locations .card img {
   height: 270px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  #overrideBootstrap .carousel-inner #caption1 {
+  .carousel-inner #caption1 {
     top: 25%;
     left: -35%;
   }
-  #overrideBootstrap .carousel-inner #caption2 {
+  .carousel-inner #caption2 {
     top: 25%;
   }
-  #overrideBootstrap .carousel-inner #caption3 {
+  .carousel-inner #caption3 {
     top: 25%;
     left: -35%;
   }
-  #overrideBootstrap .carousel-inner img {
+  .carousel-inner img {
     filter: none;
     -webkit-filter: none;
     -webkit-transform: none;
             transform: none;
   }
-  #overrideBootstrap .carousel-inner h1 {
+  .carousel-inner h1 {
     font-size: 80px;
   }
-  #overrideBootstrap .carousel-inner h3 {
+  .carousel-inner h3 {
     font-size: 25px;
   }
-  #overrideBootstrap #about {
+  #about {
     padding-left: 8%;
     padding-right: 8%;
   }
-  #overrideBootstrap #about h3 {
+  #about h3 {
     margin-top: 120px;
     margin-bottom: 15px;
   }
-  #overrideBootstrap #about h3, #overrideBootstrap #about p {
+  #about h3, #about p {
     padding-left: 10px;
     padding-right: 10px;
   }
-  #overrideBootstrap #about img {
+  #about img {
     margin-top: 80px;
   }
-  #overrideBootstrap #about #aboutTitle {
+  #about #aboutTitle {
     margin-bottom: -30px;
   }
-  #overrideBootstrap #ra-md {
+  #ra-md {
     text-align: right;
   }
-  #overrideBootstrap #la-md {
+  #la-md {
     text-align: left;
   }
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 /*# sourceMappingURL=style.css.map */
