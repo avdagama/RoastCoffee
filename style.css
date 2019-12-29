@@ -162,6 +162,10 @@ nav h1 {
   text-align: justify;
 }
 
+#locations .card-title {
+  font-size: 27px;
+}
+
 #locations .card-text {
   margin-left: 0px;
   margin-right: 0px;
