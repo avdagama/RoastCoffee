@@ -17,7 +17,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
         <div class="container-fluid">
@@ -31,13 +31,16 @@
             <div class="collapse navbar-collapse" id="navResponsive">
                 <ul class="navbar-nav ml-auto text-center">
                     <li class="nav-item">
-                        <a class="nav-link active" data-id="overrideBootstrap" href="#overrideBootstrap">Home</a>
+                        <a class="nav-link active" href="#body">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" data-id="menuLink" href="#menuTitle">Menu</a>
+                        <a class="nav-link active" href="#menuTitle">Menu</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#aboutTitle">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#locationTitle">Locations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Contact</a>
@@ -276,7 +279,7 @@
             </div>
         </div>
         
-        <div class="container-fluid padding" id="menuTitle">
+        <div class="container-fluid padding" id="locationTitle">
             <div class="row welcome text-center">
                 <div class="col-12">
                     <h1 class="display-4" data-aos="fade-up">Our Locations</h1>
@@ -287,7 +290,7 @@
         <div class="container-fluid padding" id="locations">
             <div class="row padding justify-content-center">
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up">
                         <div class="row no-gutters">
                           <div class="col-md-6">
                             <img src="media/location1.jpg" class="card-img" alt="...">
@@ -303,7 +306,7 @@
                       </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up">
                         <div class="row no-gutters">
                           <div class="col-md-6">
                             <img src="media/location2.png" class="card-img" alt="...">
@@ -319,7 +322,7 @@
                       </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up">
                         <div class="row no-gutters">
                           <div class="col-md-6">
                             <img src="media/location3.jpg" class="card-img" alt="...">
@@ -335,7 +338,7 @@
                       </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up">
                         <div class="row no-gutters">
                           <div class="col-md-6">
                             <img src="media/location4.jpg" class="card-img" alt="...">
@@ -349,6 +352,41 @@
                           </div>
                         </div>
                       </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container-fluid padding" id="aboutTitle">
+                <div class="row welcome text-center">
+                    <div class="col-12">
+                        <h1 class="display-4" data-aos="fade-up">Contact Us</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid padding" id="aboutGrid">
+                <div class="row text-center padding">
+                    <div class="col-xs-12 col-md-6 order-md-1 col-md-offset-4" data-aos="fade-up">
+                        <img src="media/about1.jpg">
+                    </div>
+                    <div class="col-xs-12 col-md-6 order-md-2 col-md-offset-4" data-aos="fade-up">
+                        <h3 id="ra-md">Delicious Desserts</h3>
+                        <p>Our bakery provides a wonderful assortment of pastires, cakes, and crossaints. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 order-md-4 col-md-offset-4" data-aos="fade-up">
+                        <img src="media/about2.jpg">
+                    </div>
+                    <div class="col-sm-12 col-md-6 order-md-3 col-md-offset-4" data-aos="fade-up">
+                        <h3 id="la-md">Free WiFi</h3>
+                        <p>Enjoy high-speed internet while drinking the best coffee in town. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 order-md-5 col-md-offset-4" data-aos="fade-up">
+                        <img src="media/about3.jpg">
+                    </div>
+                    <div class="col-sm-12 col-md-6 order-md-6 col-md-offset-4" data-aos="fade-up">
+                        <h3 id="ra-md">Free WiFi</h3>
+                        <p>Enjoy high-speed internet while drinking the best coffee in town. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints. Our bakery provides a wonderful assortment of pastires, cakes, and crossaints.</p>
+                    </div>
                 </div>
             </div>
         </div>
