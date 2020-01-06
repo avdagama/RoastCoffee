@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $(".navbar ul li a").click(function(e){
+    $("a").click(function(e){
 
         e.preventDefault();
 
@@ -16,7 +16,9 @@ $(document).ready(function(){
             });
     });
 
-    $('body').scrollspy({offset: 500});
+    
+
+    $('body').scrollspy({offset: 300});
 
     AOS.init({
         offset: 120,
