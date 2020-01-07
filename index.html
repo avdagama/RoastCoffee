@@ -368,10 +368,10 @@
             <div class="contactContent padding">
                 <div class="logo padding">
                     
-                    <form action="#" data-aos="fade-up">
-                        <input type="text" class="form-control mb-4" placeholder="Name" required>
-                        <input type="email" class="form-control mb-4" placeholder="E-mail" required>
-                        <select class="browser-default custom-select mb-4" required>
+                    <form action="https://formspree.io/xayqgveb" method="POST" data-aos="fade-up">
+                        <input type="text" class="form-control mb-4" placeholder="Name" name="name" required>
+                        <input type="email" class="form-control mb-4" placeholder="E-mail" name="email" required>
+                        <select class="browser-default custom-select mb-4" name="subject" required>
                             <option value="">Choose option</option>
                             <option value="1">Feedback</option>
                             <option value="2">Question</option>
@@ -379,11 +379,7 @@
                             <option value="4">Other</option>
                         </select>
                         <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="3" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="custom-control custom-checkbox mb-4">
-                            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-                            <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="3" name="message" placeholder="Message" required></textarea>
                         </div>
                         <button class="btn btn-info btn-block" type="submit">Send</button>
                     </form>
