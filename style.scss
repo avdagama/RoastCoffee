@@ -18,6 +18,11 @@ nav {
     }
 }
 
+.maxWidth {
+    max-width: 1500px;
+    margin: auto;
+}
+
 .padding {
     padding-left: 20px;
     padding-right: 20px;
@@ -211,7 +216,7 @@ nav {
         margin-top: 60px;
     }
     h3 {
-        margin-top: 50px;
+        margin-top: 40px;
     }
     p {
         text-align: justify;
@@ -219,7 +224,6 @@ nav {
 
     .contactContent {
         display: grid;
-        max-width: 1500px;
         align-content: center;
         margin-left: auto;
         margin-right: auto;
@@ -293,7 +297,7 @@ footer {
             padding-right: 10px;
         }
         img {
-                margin-top: 80px;
+            margin-top: 80px;
         }
         #aboutTitle {
             margin-bottom: -30px;
@@ -309,7 +313,7 @@ footer {
         padding-left: 8%;
         padding-right: 8%;
         h3 {
-            margin-top: 45px;
+            margin-top: 35px;
             margin-bottom: 15px;
         }
         h3, p {
