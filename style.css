@@ -15,11 +15,6 @@ nav h1 {
   color: #38220f;
 }
 
-.maxWidth {
-  max-width: 1500px;
-  margin: auto;
-}
-
 .padding {
   padding-left: 20px;
   padding-right: 20px;
@@ -216,7 +211,7 @@ nav h1 {
 }
 
 #locations .card img {
-  height: 270px;
+  height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -290,6 +285,10 @@ footer h1, footer h5 {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .maxWidth {
+    max-width: 1500px;
+    margin: auto;
+  }
   .carousel-inner #caption1 {
     top: 25%;
     left: -35%;
@@ -351,6 +350,9 @@ footer h1, footer h5 {
   }
   #contact img {
     margin-top: 0px;
+  }
+  #locations .card img {
+    height: 100%;
   }
   .contactContent {
     -ms-grid-columns: 1fr 1fr;
